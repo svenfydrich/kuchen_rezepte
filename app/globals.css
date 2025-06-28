@@ -3,13 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +21,66 @@
   }
 }
 
+html,
+body {
+  overflow: auto;
+  height: 100%;
+}
+
+body:has(.home-page) {
+  overflow: hidden;
+}
+
+html:has(.home-page) {
+  overflow: hidden;
+}
+
+.home-page {
+  overflow: hidden;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.font-heading {
+  font-family: var(--font-heading), serif;
+}
+
+.font-body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.text-bakery-brown {
+  color: #8b4513;
+}
+
+.text-bakery-warm {
+  color: #d2691e;
+}
+
+.bg-bakery-cream {
+  background-color: #fff8dc;
+}
+
+.bg-bakery-warm {
+  background-color: #fdf5e6;
+}
+
+.bg-bakery-brown {
+  background-color: #8b4513;
 }
