@@ -7,6 +7,7 @@ export interface Cake {
   instructions: string[];
   prepTime: string;
   cookTime: string;
+  allergen: string[];
 }
 
 export const cakes: Cake[] = [
@@ -41,6 +42,7 @@ export const cakes: Cake[] = [
     ],
     prepTime: "20 Minuten",
     cookTime: "60 Minuten",
+    allergen: ["Gluten"],
   },
   {
     id: "kaesekuchen",
@@ -75,6 +77,7 @@ export const cakes: Cake[] = [
     ],
     prepTime: "30 Minuten",
     cookTime: "60 Minuten",
+    allergen: ["Gluten", "Soja"],
   },
   {
     id: "karottenkuchen",
@@ -104,6 +107,7 @@ export const cakes: Cake[] = [
     ],
     prepTime: "30 Minuten",
     cookTime: "45 Minuten",
+    allergen: ["Gluten", "Haselnuss"],
   },
 ];
 

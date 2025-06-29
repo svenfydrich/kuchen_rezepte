@@ -39,6 +39,18 @@ export default function CakeCard({ cake }: CakeCardProps) {
           <p className="text-base text-gray-600 leading-relaxed font-body">
             {cake.description}
           </p>
+          {cake.allergen && cake.allergen.length > 0 && (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {cake.allergen.map((allergen, idx) => (
+                <span
+                  key={idx}
+                  className="bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded-full border border-orange-200"
+                >
+                  {allergen}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </motion.div>
     </Link>
