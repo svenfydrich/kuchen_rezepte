@@ -13,7 +13,8 @@ export const cakes: Cake[] = [
   {
     id: "bananenbrot",
     name: "🍌 Bananenbrot",
-    description: "Leckeres Bananenbrot - geht leicht und super schnell",
+    description:
+      "Ich mein, wer mag nicht Bananenbrot? Praktisch wenns schnell und einfach gehen muss.",
     image: "/images/bananenbrot-card.jpg",
     ingredients: [
       "4 (sehr) reife Bananen",
@@ -46,7 +47,7 @@ export const cakes: Cake[] = [
     id: "kaesekuchen",
     name: "🧀 KeinKäsekuchen",
     description:
-      "Ein cremiger Käsekuchen klassischer Art mit knusprigem Boden, halt nur vegan",
+      "Optische Täuschung: Schmeckt wie Käsekuchen, ist aber ohne Quark. Alpro Vanille Joghurt regelt.",
     image: "/images/kaesekuchen-card.jpg",
     ingredients: [
       "250 Gramm Weizenmehl",
@@ -81,7 +82,7 @@ export const cakes: Cake[] = [
     id: "karottenkuchen",
     name: "🥕 Karottenkuchen",
     description:
-      "Muss ja gesund sein, wenn da schon Gemüse im Kuchen ist, oder?",
+      "Muss ja gesund sein, wenn da schon Gemüse im Kuchen ist, oder? Zumindest gut für die Augen...",
     image: "/images/karottenkuchen-card.jpg",
     ingredients: [
       "450 Gramm Karotten (fein geraspelt)",

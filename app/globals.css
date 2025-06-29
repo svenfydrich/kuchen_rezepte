@@ -28,15 +28,12 @@ body {
 }
 
 body:has(.home-page) {
-  overflow: hidden;
 }
 
 html:has(.home-page) {
-  overflow: hidden;
 }
 
 .home-page {
-  overflow: hidden;
 }
 
 body {
