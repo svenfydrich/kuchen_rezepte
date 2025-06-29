@@ -41,9 +41,8 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
           >
-            Alle rein pflanzlich, und kinderleicht. Also naja wenn sogar ich
-            hab&apos;s hinbekomme die Kuchen zu backen, sollte das schon
-            klappen.
+            Alle rein pflanzlich, und kinderleicht. Also naja wenn sogar ich es
+            hinbekomme die Kuchen zu backen, sollte das schon klappen.
           </motion.p>
         </motion.header>
 

@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
+      <head>
+        <link rel="icon" href="/images/gustav.png" type="image/png" />
+      </head>
       <body
         className={`${playfairDisplay.variable} ${inter.variable} antialiased`}
       >
